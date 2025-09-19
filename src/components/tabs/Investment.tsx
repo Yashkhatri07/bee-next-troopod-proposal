@@ -9,9 +9,9 @@ const inclusions = [
   "Deployment & hosting configuration",
   "Documentation & training materials",
   "Basic content updates",
-"Bug fixes & maintenance",
+ "Bug fixes & maintenance",
 "Security updates", 
-"Hosting & backup support"
+ "Hosting & backup support"
 ];
 
 // const normalAMC = [
