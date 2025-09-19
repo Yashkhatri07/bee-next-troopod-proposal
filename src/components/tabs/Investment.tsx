@@ -39,7 +39,7 @@ export const Investment = () => {
       </div>
 
       {/* Main Pricing Card */}
-      <Card className="p-8 bg-gradient-card border-0 shadow-card max-w-2xl mx-auto">
+      <Card className="p-8 bg-gradient-card border-2 border-troopod-purple/20 shadow-card max-w-2xl mx-auto">
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-professional-grey mb-2">
             Website Development
@@ -70,7 +70,7 @@ export const Investment = () => {
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Normal AMC */}
-          <Card className="p-6 bg-gradient-card border-0 shadow-card">
+          <Card className="p-6 bg-gradient-card border border-light-grey/30 shadow-card hover:border-troopod-purple/20 transition-colors">
             <div className="text-center mb-6">
               <h4 className="text-xl font-semibold text-professional-grey mb-2">
                 Normal AMC

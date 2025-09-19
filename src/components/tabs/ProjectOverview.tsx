@@ -63,8 +63,8 @@ export const ProjectOverview = () => {
       {/* Feature Cards */}
       <div className="grid md:grid-cols-3 gap-8">
         {features.map((feature, index) => (
-          <Card key={index} className="p-8 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border-0">
-            <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-6">
+          <Card key={index} className="p-8 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border border-light-grey/30 hover:border-troopod-purple/30">
+            <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-white/20">
               <feature.icon className="w-8 h-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-professional-grey mb-3">

@@ -54,12 +54,12 @@ export const Deliverables = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {timeline.map((phase, index) => (
-          <Card key={index} className="p-6 hover:shadow-hover transition-all duration-300 bg-gradient-card border-0 relative">
+          <Card key={index} className="p-6 hover:shadow-hover transition-all duration-300 bg-gradient-card border border-light-grey/30 hover:border-troopod-purple/30 relative">
             <div className="absolute top-4 right-4 text-xs font-medium text-troopod-purple bg-troopod-purple/10 px-2 py-1 rounded-full">
               {phase.month}
             </div>
             
-            <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mb-4">
+            <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mb-4 border-2 border-white/20">
               <phase.icon className="w-6 h-6 text-white" />
             </div>
             
@@ -74,7 +74,7 @@ export const Deliverables = () => {
         ))}
       </div>
 
-      <div className="bg-secondary/50 rounded-2xl p-8 text-center">
+      <div className="bg-secondary/50 border border-light-grey/30 rounded-2xl p-8 text-center">
         <h3 className="text-xl font-semibold text-professional-grey mb-3">
           Delivery Guarantee
         </h3>

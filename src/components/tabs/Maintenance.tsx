@@ -72,8 +72,8 @@ export const Maintenance = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {maintenanceServices.map((service, index) => (
-            <Card key={index} className="p-6 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border-0">
-              <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-4">
+            <Card key={index} className="p-6 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border border-light-grey/30 hover:border-troopod-purple/30">
+              <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-4 border border-troopod-purple/20">
                 <service.icon className="w-6 h-6 text-troopod-purple" />
               </div>
               <h4 className="text-lg font-semibold text-professional-grey mb-2">
@@ -95,8 +95,8 @@ export const Maintenance = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {growthServices.map((service, index) => (
-            <Card key={index} className="p-6 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border-0">
-              <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mx-auto mb-4">
+            <Card key={index} className="p-6 text-center hover:shadow-hover transition-all duration-300 bg-gradient-card border border-light-grey/30 hover:border-troopod-purple/30">
+              <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mx-auto mb-4 border-2 border-white/20">
                 <service.icon className="w-6 h-6 text-white" />
               </div>
               <h4 className="text-lg font-semibold text-professional-grey mb-2">

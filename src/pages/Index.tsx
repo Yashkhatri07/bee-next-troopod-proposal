@@ -37,10 +37,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-gradient-hero relative overflow-hidden">
+      <section className="bg-gradient-hero relative overflow-hidden border-b-2 border-white/20">
         <div className="absolute inset-0 bg-black/5" />
         <div className="relative z-10 container mx-auto px-container py-section text-center">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-8 bg-white/5 backdrop-blur-sm">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
               BeeNext × Troopod
             </h1>
@@ -63,13 +63,13 @@ const Index = () => {
       {/* Navigation Tabs */}
       <section className="bg-white border-b border-light-grey sticky top-0 z-20 shadow-sm">
         <div className="container mx-auto px-container">
-          <nav className="flex overflow-x-auto">
+          <nav className="flex overflow-x-auto border-x border-light-grey/30">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={cn(
-                  "px-6 py-4 text-sm font-medium whitespace-nowrap transition-all duration-200 border-b-2",
+                  "px-6 py-4 text-sm font-medium whitespace-nowrap transition-all duration-200 border-b-2 border-r border-light-grey/30 last:border-r-0",
                   activeTab === tab.id
                     ? "text-troopod-purple border-troopod-purple bg-primary/5"
                     : "text-professional-grey border-transparent hover:text-troopod-purple hover:border-troopod-purple/30"
