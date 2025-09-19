@@ -24,6 +24,7 @@ const growthAMC = [
   "Performance optimization",
   "Monthly analytics reports",
   "UX improvements & A/B testing"
+  "3 landing pages for each quater"
 ];
 
 export const Investment = () => {
